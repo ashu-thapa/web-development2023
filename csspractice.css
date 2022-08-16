@@ -1,0 +1,9 @@
+
+h1{color:blue;}
+h2{color:black;}
+#test2 h1{font-size: 20px;}
+.main-div{
+background-color: blue;
+height: 40vh;
+width: 60vw;
+}
