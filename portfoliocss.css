@@ -53,20 +53,23 @@
         }
         .about{
             margin-top: -750px;
-            margin-left: 350px;
+            margin-left: 400px;
         }
         p{
+            width: auto;
             font-size: 18px;
-            padding-right: 30px;
+            padding-right: 80px;
+            
         }
 
         .buttons{
             margin-top: 80px;
+            margin-left: -38px;
         }
 
         button{
             height: 200px;
-            width: 200px ;
+            width: 205px ;
             margin-left: 30px;
             border-top: none;
             border-left: none;
