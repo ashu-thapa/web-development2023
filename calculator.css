@@ -1,0 +1,54 @@
+body{
+    background-color: green;
+}
+.main-div{
+    height: 650px;
+    width: 500px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 50px;
+    
+    border-radius: 10px;
+    box-shadow: 6px 8px;
+
+}
+
+#input-area{
+    width: 410px;
+    height: 50px;
+    margin: 50px 45px;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 40px;
+    border-radius: 5px;
+    box-shadow: 6px 4px rgb(76, 209, 76);
+}
+.firstrow{
+    margin-left: 45px;
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+button{
+    width: 100px;
+    height: 90px;
+    margin: 2px;
+    color: white;
+    font-size: 25px;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 4px 2px rgb(76, 209, 76);
+}
+.function{
+    background-color: red;
+}
+.num{
+    background-color: rgb(38, 38, 65);
+}
+.operator{
+    background-color: rgb(145, 214, 41);
+    font-size: 30px;
+}
+.equal{
+    background-color: green;
+    font-size: 30px;
+}
