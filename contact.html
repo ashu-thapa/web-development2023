@@ -2,8 +2,11 @@
 <html>
     <head>
         <title>About Me</title>
-        <link type="text/css" href="portfoliocss.css"rel="stylesheet"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link type="text/css" href="contact.css"rel="stylesheet"> 
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
 
     </head>
@@ -12,7 +15,8 @@
         <div class="main">
             <div class="menu">
                 <img id="profilepic" src="profileimage.jpeg"><br>
-                <a href="home.html" class="active">HOME</a><br>
+                <h2>Ashu Thapa</h2>
+                <a href="portfolio.html" class="active">HOME</a><br>
                 <a href="about.html">ABOUT</a><br>
                 <a href="skills.html">SKILLS</a><br>
                 <a href="contact.html">CONTACT</a><br>
@@ -21,7 +25,21 @@
                 <h3 id="aboutme">GET IN TOUCH</h3>
                 <h3>CONTACT</h3>
 
-                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="info">
+                  
+                    <button class="graphic"><i class="fa-regular fa-lightbulb  fa-2xl"></i></button>
+                    <span>www.ashuthapa.com.au</span><br>
+                    <button class="graphic"><i class="fa-regular fa-lightbulb fa-2xl"></i></button>
+                    <span>Pearlman Street, Coombs ACT 2611</span><br>
+                    <button class="graphic"><i class="fa-regular fa-phone-arrow-up-right fa-2xl"></i></button>
+                    <span>02 6542 6542</span><br>
+
+                    
+                  </div>
+                 
+
+                <div class="contactform">
+                  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
                     <div class="row">
                       <label class="required" for="name">Your name:</label><br />
                       <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -40,6 +58,12 @@
                       
                       <input id="submit_button" type="submit" value="Send email" />
                   </form>
+
+
+
+                </div>
+
+              
                        
                   
             </div>

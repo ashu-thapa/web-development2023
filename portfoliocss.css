@@ -21,7 +21,7 @@
             height: 800px;
             background-color: lightblue;
             margin-top: 2px;   
-            /*#f2f3f7;*/
+           
         }
 
         #profilepic{
@@ -107,6 +107,12 @@
         .app{
             border-bottom-color: #a94cb8; 
         }
+
+        .w3-light-grey{
+            margin-top: -10px!important;
+            
+        }
+        
 
         .footer{
             background-color:#333333;
